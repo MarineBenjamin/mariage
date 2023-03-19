@@ -11,7 +11,7 @@ tapis.set_parent(layer3);
 
 let tapisImg = new Element(IMG);
 tapisImg.set_id("tapisImg");
-tapisImg.set_src(rpath + "../../assets/tapis.png");
+tapisImg.set_src(rpath + "../../assets/tapis.PNG");
 tapisImg.set_width("75%");
 tapisImg.set_height("90%");
 tapisImg.set_position("absolute");
