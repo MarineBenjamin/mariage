@@ -11,7 +11,7 @@ expresso.set_parent(layer3);
 
 let expressoImg = new Element(IMG);
 expressoImg.set_id("expressoImg");
-expressoImg.set_src(rpath + "../../assets/expresso.png");
+expressoImg.set_src(rpath + "../../assets/expresso.PNG");
 expressoImg.set_width("75%");
 expressoImg.set_height("90%");
 expressoImg.set_position("absolute");
