@@ -11,7 +11,7 @@ meuble1.set_parent(layer3);
 
 let meuble1Img = new Element(IMG);
 meuble1Img.set_id("meuble1Img");
-meuble1Img.set_src(rpath + "../../assets/meuble1.png");
+meuble1Img.set_src(rpath + "../../assets/meuble1.PNG");
 meuble1Img.set_width("75%");
 meuble1Img.set_height("90%");
 meuble1Img.set_position("absolute");
