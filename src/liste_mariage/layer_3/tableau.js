@@ -11,7 +11,7 @@ tableau.set_parent(layer3);
 
 let tableauImg = new Element(IMG);
 tableauImg.set_id("tableauImg");
-tableauImg.set_src(rpath + "../../assets/tableau.png");
+tableauImg.set_src(rpath + "../../assets/tableau.PNG");
 tableauImg.set_width("75%");
 tableauImg.set_height("90%");
 tableauImg.set_position("absolute");
