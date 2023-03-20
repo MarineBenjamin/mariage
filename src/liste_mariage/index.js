@@ -52,7 +52,9 @@ function window_resize_event_handler()
 
 
 
-		layer3.set_top(Math.max(parseInt(layer2.top()) + parseInt(layer2.height()), y) + "px");
+		//layer3.set_top(Math.max(parseInt(layer2.top()) + parseInt(layer2.height()), y) + "px");
+		style = getComputedStyle(layer2.element());
+		layer3.set_top(parseInt(style.top, 10) + parseInt(style.height, 10) + 0.1*y + "px");
 
 	}
 
