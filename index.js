@@ -16,7 +16,7 @@ function window_resize_event_handler()
 		
 		if(x < 1280) 
 		{ 
-			layer1Buttons.set_width("1152px");
+			//layer1Buttons.set_width("1152px");
 			layer1.set_width("1280px");
 			layer2.set_width("1280px");
 			layer3.set_width("1280px");
@@ -28,7 +28,7 @@ function window_resize_event_handler()
 		}
 		else
 		{
-			layer1Buttons.set_width(0.9*x + "px");
+			//layer1Buttons.set_width(0.9*x + "px");
 			layer1.set_width(x + "px");
 			layer2.set_width(x + "px");
 			layer3.set_width(x + "px");
@@ -42,14 +42,14 @@ function window_resize_event_handler()
 
 		if(y < 720)
 		{
-			layer1Buttons.set_height("72px");
+			//layer1Buttons.set_height("72px");
 
-			layer1.set_top("72px");
+			//layer1.set_top("72px");
 		}
 		else
 		{
-			layer1Buttons.set_height(0.1*y + "px");
-			layer1.set_top(0.1*y + "px");		
+			//layer1Buttons.set_height(0.1*y + "px");
+			//layer1.set_top(0.1*y + "px");		
 		}
 
 		layer1.set_height(x*0.375 + "px");
