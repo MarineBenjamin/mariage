@@ -59,5 +59,5 @@ Layer3YallerSeLogerTextCore.set_position("absolute");
 Layer3YallerSeLogerTextCore.set_top("25%");
 Layer3YallerSeLogerTextCore.set_left("0%");
 Layer3YallerSeLogerTextCore.set_margin("0px 0px 0px 0px");
-Layer3YallerSeLogerTextCore.set_padding("0px 10px 0px 10px");
+Layer3YallerSeLogerTextCore.set_padding("0px 20px 0px 20px");
 Layer3YallerSeLogerTextCore.set_parent(layer3YallerSeLogerContainer);

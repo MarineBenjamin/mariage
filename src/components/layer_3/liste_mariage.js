@@ -42,7 +42,7 @@ Layer3ListeMariageTextTitle.set_padding("0px 0px 0px 0px");
 Layer3ListeMariageTextTitle.set_parent(Layer3ListeMariageText);
 
 let Layer3ListeMariageTextCore = new Element(DIV);
-Layer3ListeMariageTextCore.set_innerHTML("La liste des cadeaux de mariage est disponible <a href='" + rpath + "liste_mariage/index.html" + "' target='_blank'>ici.</a><br>\
+Layer3ListeMariageTextCore.set_innerHTML("La liste des cadeaux de mariage est disponible <a href='" + rpath + "src/liste_mariage/index.html" + "' target='_blank'>ici.</a><br>\
 <br>\
 Pour y participer, vous pouvez contacter  Marine ou Benjamin par e-mail : <br><br>\
 marinemartinj@gmail.com<br><br>\
@@ -55,5 +55,5 @@ Layer3ListeMariageTextCore.set_position("absolute");
 Layer3ListeMariageTextCore.set_top("25%");
 Layer3ListeMariageTextCore.set_left("0%");
 Layer3ListeMariageTextCore.set_margin("0px 0px 0px 0px");
-Layer3ListeMariageTextCore.set_padding("0px 0px 0px 10px");
+Layer3ListeMariageTextCore.set_padding("0px 20px 0px 20px");
 Layer3ListeMariageTextCore.set_parent(layer3ListeMariageContainer);

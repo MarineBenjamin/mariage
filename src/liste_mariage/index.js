@@ -47,7 +47,10 @@ function window_resize_event_handler()
 		
 
 		layer2.set_top(Math.max(parseInt(layer1.top(), 10) + parseInt(layer1.height(), 10), 72) + 0.04*y + "px");
-		layer2.set_height(Math.max(y - parseInt(layer2.top()), 144) + "px");
+		let style = getComputedStyle(layer2subText.element());
+		layer2.set_height(parseInt(style.top) + parseInt(style.height) + 20 + "px");
+
+
 
 		layer3.set_top(Math.max(parseInt(layer2.top()) + parseInt(layer2.height()), y) + "px");
 
