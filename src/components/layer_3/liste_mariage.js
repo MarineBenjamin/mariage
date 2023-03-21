@@ -46,7 +46,7 @@ Layer3ListeMariageTextCore.set_innerHTML("La liste des cadeaux de mariage est di
 <br>\
 Pour y participer, vous pouvez contacter  Marine ou Benjamin par e-mail : <br><br>\
 marinemartinj@gmail.com<br><br>\
-benjaminlevavasseur@hotmail.com.");
+benjaminlevavasseur@hotmail.com");
 Layer3ListeMariageTextCore.set_fontFamily("Supermercado One");
 Layer3ListeMariageTextCore.set_fontWeight("bold");
 Layer3ListeMariageTextCore.set_textAlign("left");
