@@ -16,7 +16,7 @@ let layer3ReceptionTextTitle = new Element(DIV);
 layer3ReceptionTextTitle.set_id("layer3ReceptionTextTitle");
 //layer3ReceptionTextTitle.set_width("50%");
 //layer3ReceptionTextTitle.set_height("100%");
-layer3ReceptionTextTitle.set_innerHTML("LA R&EacuteC&EgravePTION");
+layer3ReceptionTextTitle.set_innerHTML("LA R&EacuteCEPTION");
 layer3ReceptionTextTitle.set_fontFamily("Supermercado One");
 layer3ReceptionTextTitle.set_fontWeight("bold");
 layer3ReceptionTextTitle.set_textAlign("center");
@@ -34,7 +34,7 @@ layer3ReceptionTextTitle.set_id("layer3ReceptionTextCore");
 layer3ReceptionTextTitle.set_width("100%");
 //layer3ReceptionTextTitle.set_height("100%");
 
-layer3ReceptionTextCore.set_innerHTML("La r&eacutec&egraveption aura lieu apr&egraves la C&eacuter&eacutemonie &agrave la Ferme Sainte Anne de Langres.<br/><br/><br/> \
+layer3ReceptionTextCore.set_innerHTML("La r&eacuteception aura lieu apr&egraves la C&eacuter&eacutemonie &agrave la Ferme Sainte Anne de Langres.<br/><br/><br/> \
 Adresse : 380 chemin de la ferme Sainte Anne 52200 Langres.<br/><br/><br/> \
 Coordonn&eacutees GPS : 47.860365285669985, 5.313605032819924");
 layer3ReceptionTextCore.set_fontFamily("Supermercado One");
