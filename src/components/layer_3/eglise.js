@@ -31,9 +31,9 @@ Layer3EgliseTextTitle.set_id("Layer3EgliseTextCore");
 Layer3EgliseTextTitle.set_width("100%");
 //Layer3EgliseTextTitle.set_height("100%");
 
-Layer3EgliseTextCore.set_innerHTML("La C&eacuter&eacutemonie religieuse se d&eacuteroulera &agrave 15h30, &agrave l'&eacuteglise Saint Gervais - Saint Protais de Vieux Moulins.<br/><br/><br/> \
+Layer3EgliseTextCore.set_innerHTML("<p>La C&eacuter&eacutemonie religieuse se d&eacuteroulera &agrave 15h30, &agrave l'&eacuteglise Saint Gervais - Saint Protais de Vieux Moulins.<br/><br/><br/> \
 	Adresse : Rue de La Roche Belin, 52200, Perrancey-les-Vieux-Moulins.<br/><br/><br/> \
-	Coordonn&eacutees GPS : 47.848812, 5.258236.");
+	Coordonn&eacutees GPS : 47.848812, 5.258236.</p>");
 Layer3EgliseTextCore.set_fontFamily("Supermercado One");
 Layer3EgliseTextCore.set_fontWeight("bold");
 Layer3EgliseTextCore.set_textAlign("center");
