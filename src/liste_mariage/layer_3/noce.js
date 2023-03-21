@@ -11,7 +11,7 @@ noce.set_parent(layer3);
 
 let noceImg = new Element(IMG);
 noceImg.set_id("noceImg");
-noceImg.set_src(rpath + "../../assets/noce.png");
+noceImg.set_src(rpath + "../../assets/noce.jpeg");
 noceImg.set_width("75%");
 noceImg.set_height("90%");
 noceImg.set_position("absolute");

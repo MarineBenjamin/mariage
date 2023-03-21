@@ -63,11 +63,11 @@ function window_resize_event_handler()
 		let style = getComputedStyle(Layer3YallerSeLogerTextCore.element());
 		layer3.set_height( parseInt(style.top,10) + parseInt(style.height,10) + 20 + "px");
 
-		layer4.set_top( parseInt(layer3.top(), 10) + parseInt(layer3.height(), 10) + 0.025*y + "px");
-		style = getComputedStyle(theme.element());
-		layer4.set_height( parseInt(style.top,10) + parseInt(style.height,10) + 20 + "px");
+		layer4.set_top( parseInt(layer3.top(), 10) + parseInt(layer3.height(), 10) + 0.03*y + "px");
+		layer4.set_height( Math.max(0.15*y, 144) + "px");
 		
 		layer5.set_top( parseInt(layer4.top(), 10) + parseInt(layer4.height(), 10) + 30 + "px");
+		layer5.set_height( Math.max(0.15*y, 144) + "px");
 	}
 
 
