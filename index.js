@@ -60,7 +60,7 @@ function window_resize_event_handler()
 		layer2.set_height(Math.max(y - parseInt(layer2.top()), 144) + "px");
 
 		layer3.set_top(Math.max(parseInt(layer2.top()) + parseInt(layer2.height()), y) + "px");
-		let style = getComputedStyle(Layer3YallerSeLogerTextCore.element());
+		let style = getComputedStyle(Layer3BrunchTextCore.element());
 		layer3.set_height( parseInt(style.top,10) + parseInt(style.height,10) + 20 + "px");
 
 		layer4.set_top( parseInt(layer3.top(), 10) + parseInt(layer3.height(), 10) + 0.03*y + "px");
