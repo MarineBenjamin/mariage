@@ -7,7 +7,7 @@ theme.set_position("absolute");
 theme.set_top("50%");
 theme.set_left("0%");
 theme.set_margin("0px 0px 0px 0px");
-theme.set_padding("0px 0px 0px 0px");
+theme.set_padding("0px 10px 0px 10px");
 theme.set_innerHTML("Le th&egraveme du mariage est le bleu ! Un v&ecirctement, un accessoire, un objet... Tant de possibilit&eacutes pour &ecirctre &agrave la couleur du jour !");
 theme.set_fontFamily("Supermercado One");
 theme.set_fontSize("75%");
