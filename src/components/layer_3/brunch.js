@@ -31,7 +31,7 @@ Layer3BrunchTextTitle.set_parent(Layer3BrunchText);
 
 let Layer3BrunchTextCore = new Element(DIV);
 Layer3BrunchTextCore.set_id("Layer3BrunchTextCore");
-Layer3BrunchTextCore.set_width("100%");
+Layer3BrunchTextCore.set_width("90%");
 //Layer3EgliseTextTitle.set_height("100%");
 
 Layer3BrunchTextCore.set_innerHTML("<p>Le brunch aura lieu le lendemain, &agrave XXhXX &agrave la Ferme Sainte Anne de Langres.<br/><br/><br/> \
@@ -45,8 +45,8 @@ Layer3BrunchTextCore.set_align_items("center");
 Layer3BrunchTextCore.set_textAlign("center");
 Layer3BrunchTextCore.set_fontSize("150%");
 Layer3BrunchTextCore.set_position("absolute");
-Layer3BrunchTextCore.set_top("25%");
-Layer3BrunchTextCore.set_left("0%");
+Layer3BrunchTextCore.set_top("20%");
+// Layer3BrunchTextCore.set_left("5%");
 Layer3BrunchTextCore.set_margin("0px 0px 0px 0px");
 Layer3BrunchTextCore.set_padding("0px 0px 0px 0px");
 Layer3BrunchTextCore.set_parent(Layer3BrunchText);

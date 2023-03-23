@@ -27,8 +27,8 @@ Layer3EgliseTextTitle.set_padding("0px 0px 0px 0px");
 Layer3EgliseTextTitle.set_parent(Layer3EgliseText);
 
 let Layer3EgliseTextCore = new Element(DIV);
-Layer3EgliseTextTitle.set_id("Layer3EgliseTextCore");
-Layer3EgliseTextTitle.set_width("100%");
+Layer3EgliseTextCore.set_id("Layer3EgliseTextCore");
+Layer3EgliseTextCore.set_width("90%");
 //Layer3EgliseTextTitle.set_height("100%");
 
 Layer3EgliseTextCore.set_innerHTML("<p>La C&eacuter&eacutemonie religieuse se d&eacuteroulera &agrave 15h30, &agrave l'&eacuteglise Saint Gervais - Saint Protais de Vieux Moulins.<br/><br/><br/> \
@@ -42,8 +42,8 @@ Layer3EgliseTextCore.set_justify_content("center");
 Layer3EgliseTextCore.set_align_items("center");
 Layer3EgliseTextCore.set_fontSize("150%");
 Layer3EgliseTextCore.set_position("absolute");
-Layer3EgliseTextCore.set_top("25%");
-Layer3EgliseTextCore.set_left("0%");
+Layer3EgliseTextCore.set_top("20%");
+// Layer3EgliseTextCore.set_left("5%");
 Layer3EgliseTextCore.set_margin("0px 0px 0px 0px");
 Layer3EgliseTextCore.set_padding("0px 0px 0px 0px");
 Layer3EgliseTextCore.set_parent(Layer3EgliseText);

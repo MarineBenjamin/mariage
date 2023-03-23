@@ -30,8 +30,8 @@ layer3ReceptionTextTitle.set_padding("0px 0px 0px 0px");
 layer3ReceptionTextTitle.set_parent(layer3ReceptionText);
 
 let layer3ReceptionTextCore = new Element(DIV);
-layer3ReceptionTextTitle.set_id("layer3ReceptionTextCore");
-layer3ReceptionTextTitle.set_width("100%");
+layer3ReceptionTextCore.set_id("layer3ReceptionTextCore");
+layer3ReceptionTextCore.set_width("90%");
 //layer3ReceptionTextTitle.set_height("100%");
 
 layer3ReceptionTextCore.set_innerHTML("<p>La r&eacuteception aura lieu apr&egraves la C&eacuter&eacutemonie &agrave la Ferme Sainte Anne de Langres.<br/><br/><br/> \
@@ -45,8 +45,8 @@ layer3ReceptionText.set_align_items("center");
 layer3ReceptionTextCore.set_textAlign("center");
 layer3ReceptionTextCore.set_fontSize("150%");
 layer3ReceptionTextCore.set_position("absolute");
-layer3ReceptionTextCore.set_top("25%");
-//layer3ReceptionTextCore.set_left("0%");
+layer3ReceptionTextCore.set_top("20%");
+// layer3ReceptionTextCore.set_left("5%");
 layer3ReceptionTextCore.set_margin("0px 0px 0px 0px");
 layer3ReceptionTextCore.set_padding("0px 0px 0px 0px");
 layer3ReceptionTextCore.set_parent(layer3ReceptionText);

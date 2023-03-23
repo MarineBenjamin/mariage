@@ -43,7 +43,7 @@ Layer3YallerSeLogerTextTitle.set_parent(Layer3YallerSeLogerText);
 
 let Layer3YallerSeLogerTextCore = new Element(DIV);
 Layer3YallerSeLogerTextCore.set_id("Layer3YallerSeLogerTextCore");
-//Layer3YallerSeLogerTextCore.set_width("50%");
+Layer3YallerSeLogerTextCore.set_width("90%");
 //Layer3YallerSeLogerTextCore.set_height("100%");
 
 Layer3YallerSeLogerTextCore.set_innerHTML("Y aller : <br>\
@@ -57,7 +57,7 @@ Layer3YallerSeLogerTextCore.set_textAlign("left");
 Layer3YallerSeLogerTextCore.set_fontSize("150%");
 Layer3YallerSeLogerTextCore.set_position("absolute");
 Layer3YallerSeLogerTextCore.set_top("25%");
-Layer3YallerSeLogerTextCore.set_left("0%");
+Layer3YallerSeLogerTextCore.set_left("5%");
 Layer3YallerSeLogerTextCore.set_margin("0px 0px 0px 0px");
-Layer3YallerSeLogerTextCore.set_padding("0px 20px 0px 20px");
+Layer3YallerSeLogerTextCore.set_padding("0px 0px 0px 0px");
 Layer3YallerSeLogerTextCore.set_parent(layer3YallerSeLogerContainer);
