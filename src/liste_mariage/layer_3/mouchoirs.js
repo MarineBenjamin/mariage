@@ -3,7 +3,7 @@ mouchoirs.set_id("mouchoirs");
 mouchoirs.set_width("50%");
 mouchoirs.set_height("100%");
 mouchoirs.set_position("absolute");
-mouchoirs.set_top("440%");
+mouchoirs.set_top("220%");
 mouchoirs.set_left("0%");
 mouchoirs.set_margin("0px 0px 0px 0px");
 mouchoirs.set_padding("0px 0px 0px 0%");

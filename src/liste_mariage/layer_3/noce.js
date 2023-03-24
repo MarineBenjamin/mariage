@@ -4,7 +4,7 @@ noce.set_width("50%");
 noce.set_height("100%");
 noce.set_position("absolute");
 noce.set_top("440%");
-noce.set_left("50%");
+noce.set_left("25%");
 noce.set_margin("0px 0px 0px 0px");
 noce.set_padding("0px 0px 0px 0%");
 noce.set_parent(layer3);

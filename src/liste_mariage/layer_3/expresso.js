@@ -30,7 +30,7 @@ expressoText.set_left("10%");
 expressoText.set_top("90%");
 expressoText.set_margin("0% 0% 0px 0px");
 expressoText.set_padding("0% 0px 0px 0px");
-expressoText.set_innerHTML("Expresso : 299.99&#8364");
+expressoText.set_innerHTML("Expresso : 300&#8364");
 expressoText.set_fontFamily("Supermercado One");
 expressoText.set_fontSize("250%");
 //expressoText.set_color("#FFFFFF");

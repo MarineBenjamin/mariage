@@ -34,7 +34,7 @@ Layer3BrunchTextCore.set_id("Layer3BrunchTextCore");
 Layer3BrunchTextCore.set_width("90%");
 //Layer3EgliseTextTitle.set_height("100%");
 
-Layer3BrunchTextCore.set_innerHTML("<p>Le brunch aura lieu le lendemain, &agrave XXhXX &agrave la Ferme Sainte Anne de Langres.<br/><br/><br/> \
+Layer3BrunchTextCore.set_innerHTML("<p>Le brunch aura lieu le lendemain, &agrave 11h30 &agrave la Ferme Sainte Anne de Langres.<br/><br/><br/> \
 Adresse : 380 chemin de la ferme Sainte Anne 52200 Langres.<br/><br/><br/> \
 Coordonn&eacutees GPS : 47.860365285669985, 5.313605032819924.</p>");
 Layer3BrunchTextCore.set_fontFamily("Supermercado One");

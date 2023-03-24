@@ -7,7 +7,7 @@ meuble1.set_top("220%");
 meuble1.set_left("0%");
 meuble1.set_margin("0px 0px 0px 0px");
 meuble1.set_padding("0px 0px 0px 0%");
-meuble1.set_parent(layer3);
+//meuble1.set_parent(layer3);
 
 let meuble1Img = new Element(IMG);
 meuble1Img.set_id("meuble1Img");
