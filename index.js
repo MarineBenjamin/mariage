@@ -7,9 +7,32 @@ function window_resize_event_handler()
     let x = window.innerWidth;
     let y = window.innerHeight;
 
-	if(x < 450 && y < 950) // Smartphone
+	if(y > x) // Smartphone
 	{
+		layer1.set_width(x + "px");
+		layer2.set_width(x + "px");
+		layer3.set_width(x + "px");
+		layer4.set_width(x + "px");	
+		layer5.set_width(x + "px");	
 		
+		document.body.style.overflowX = "hidden";
+
+		layer1.set_height(x*0.375 + "px");
+
+		
+
+		layer2.set_top(parseInt(layer1.top(), 10) + parseInt(layer1.height(), 10) + "px");
+		layer2.set_height(0.1*y + "px");
+
+		layer3.set_top(parseInt(layer2.top()) + parseInt(layer2.height()) + "px");
+		let style = getComputedStyle(Layer3BrunchTextCore.element());
+		layer3.set_height( parseInt(style.top,10) + parseInt(style.height,10) + 20 + "px");
+
+		layer4.set_top( parseInt(layer3.top(), 10) + parseInt(layer3.height(), 10) + 0.03*y + "px");
+		layer4.set_height( Math.max(0.15*y, 144) + "px");
+		
+		layer5.set_top( parseInt(layer4.top(), 10) + parseInt(layer4.height(), 10) + 30 + "px");
+		layer5.set_height( Math.max(0.15*y, 144) + "px");		
 	}
 	else
 	{

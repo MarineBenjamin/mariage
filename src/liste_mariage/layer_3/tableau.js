@@ -1,3 +1,5 @@
+let tableaustyle;
+
 let tableau = new Element(DIV);
 tableau.set_id("tableau");
 tableau.set_width("50%");
@@ -13,7 +15,6 @@ let tableauImg = new Element(IMG);
 tableauImg.set_id("tableauImg");
 tableauImg.set_src(rpath + "../../assets/tableau.PNG");
 tableauImg.set_width("75%");
-tableauImg.set_height("90%");
 tableauImg.set_position("absolute");
 tableauImg.set_top("0%");
 tableauImg.set_left("10%");
@@ -27,7 +28,6 @@ tableauText.set_position("absolute");
 tableauText.set_width("75%");
 tableauText.set_height("10%");
 tableauText.set_left("10%");
-tableauText.set_top("90%");
 tableauText.set_margin("0% 0% 0px 0px");
 tableauText.set_padding("0% 0px 0px 0px");
 tableauText.set_innerHTML("Tableau : 480&#8364");
@@ -37,3 +37,8 @@ tableauText.set_fontSize("250%");
 tableauText.set_fontWeight("bold");
 tableauText.set_textAlign("center");
 tableauText.set_parent(tableau);
+
+tableaustyle = getComputedStyle(tableauImg.element());
+tableauImg.set_height( parseInt(tableaustyle.width, 10) + "px");
+tableauText.set_top( parseInt(tableauImg.height(),10) + 10 + "px");
+tableau.set_height(parseInt(tableauText.top(),10) + parseInt(tableauText.height(),10) + 40 + "px");
