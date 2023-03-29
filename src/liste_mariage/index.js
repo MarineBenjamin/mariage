@@ -42,7 +42,7 @@ function window_resize_event_handler()
 			layer1.set_top(0.1*y + "px");		
 		}*/
 
-		layer1.set_height(x*0.375 + "px");
+		layer1.set_height(x*0.4 + "px");
 
 		
 

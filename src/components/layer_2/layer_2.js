@@ -1,6 +1,6 @@
 let layer2 = new Element(DIV);
 layer2.set_id("layer2");
-layer2.set_width("100%");
+layer2.set_width("90%");
 layer2.set_height("25%");
 layer2.set_position("absolute");
 //layer2.set_backgroundColor("#7F7F7F");
@@ -8,7 +8,7 @@ layer2.set_position("absolute");
 layer2.set_display("flex");
 layer2.set_align_items("center");
 layer2.set_justify_content("center");
-layer2.set_left("0px");
+layer2.set_left("5%");
 layer2.set_margin("0px 0px 0px 0px");
 layer2.set_padding("0% 0px 0px 0px");
 document.body.appendChild(layer2.element());

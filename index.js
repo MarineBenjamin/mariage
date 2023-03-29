@@ -7,10 +7,14 @@ function window_resize_event_handler()
     let x = window.innerWidth;
     let y = window.innerHeight;
 
+	console.log(x)
+	console.log(y)
+
 	if(y > x) // Smartphone
 	{
+		console.log("hey")	;
 		layer1.set_width(x + "px");
-		layer2.set_width(x + "px");
+		layer2.set_width(0.9*x + "px");
 		layer3.set_width(x + "px");
 		layer4.set_width(x + "px");	
 		layer5.set_width(x + "px");	
@@ -22,26 +26,26 @@ function window_resize_event_handler()
 		
 
 		layer2.set_top(parseInt(layer1.top(), 10) + parseInt(layer1.height(), 10) + "px");
-		layer2.set_height(0.1*y + "px");
+		layer2.set_height(0.2*y + "px");
 
 		layer3.set_top(parseInt(layer2.top()) + parseInt(layer2.height()) + "px");
 		let style = getComputedStyle(Layer3BrunchTextCore.element());
 		layer3.set_height( parseInt(style.top,10) + parseInt(style.height,10) + 20 + "px");
 
-		layer4.set_top( parseInt(layer3.top(), 10) + parseInt(layer3.height(), 10) + 0.03*y + "px");
+		layer4.set_top( parseInt(layer3.top(), 10) + parseInt(layer3.height(), 10) + 0.06*y + "px");
 		layer4.set_height( Math.max(0.15*y, 144) + "px");
 		
-		layer5.set_top( parseInt(layer4.top(), 10) + parseInt(layer4.height(), 10) + 30 + "px");
+		layer5.set_top( parseInt(layer4.top(), 10) + parseInt(layer4.height(), 10) + 0.05*y + "px");
 		layer5.set_height( Math.max(0.15*y, 144) + "px");		
 	}
 	else
 	{
-		
+		console.log("here")	;
 		if(x < 1280) 
 		{ 
 			//layer1Buttons.set_width("1152px");
 			layer1.set_width("1280px");
-			layer2.set_width("1280px");
+			layer2.set_width(0.9*1280 + "px");
 			layer3.set_width("1280px");
 			layer4.set_width("1280px");
 			layer5.set_width("1280px");
@@ -53,7 +57,7 @@ function window_resize_event_handler()
 		{
 			//layer1Buttons.set_width(0.9*x + "px");
 			layer1.set_width(x + "px");
-			layer2.set_width(x + "px");
+			layer2.set_width(0.9*x + "px");
 			layer3.set_width(x + "px");
 			layer4.set_width(x + "px");	
 			layer5.set_width(x + "px");	
