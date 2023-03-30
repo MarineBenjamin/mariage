@@ -1,7 +1,7 @@
 let layer3ListeMariageContainer = new Element(DIV);
 layer3ListeMariageContainer.set_id("layer3ListeMariageContainer");
 //layer3ListeMariageContainer.set_backgroundColor("#A1A1A1");
-layer3ListeMariageContainer.set_borderLeft("solid 2px");
+layer3ListeMariageContainer.set_borderLeft("solid 2px white");
 layer3ListeMariageContainer.set_width("33.333%");
 layer3ListeMariageContainer.set_height("100%");
 layer3ListeMariageContainer.set_position("absolute");
@@ -39,6 +39,7 @@ Layer3ListeMariageTextTitle.set_top("5%");
 //Layer3ListeMariageTextTitle.set_left("20%");
 Layer3ListeMariageTextTitle.set_margin("0px 0px 0px 0px");
 Layer3ListeMariageTextTitle.set_padding("0px 0px 0px 0px");
+Layer3ListeMariageTextTitle.set_color("#FFFFFF");
 Layer3ListeMariageTextTitle.set_parent(Layer3ListeMariageText);
 
 let Layer3ListeMariageTextCore = new Element(DIV);
@@ -57,4 +58,5 @@ Layer3ListeMariageTextCore.set_top("25%");
 Layer3ListeMariageTextCore.set_left("5%");
 Layer3ListeMariageTextCore.set_margin("0px 0px 0px 0px");
 Layer3ListeMariageTextCore.set_padding("0px 0px 0px 0px");
+Layer3ListeMariageTextCore.set_color("#FFFFFF");
 Layer3ListeMariageTextCore.set_parent(layer3ListeMariageContainer);

@@ -36,6 +36,7 @@ tableauText.set_fontSize("250%");
 //tableauText.set_color("#FFFFFF");
 tableauText.set_fontWeight("bold");
 tableauText.set_textAlign("center");
+tableauText.set_color("#FFFFFF");
 tableauText.set_parent(tableau);
 
 tableaustyle = getComputedStyle(tableauImg.element());

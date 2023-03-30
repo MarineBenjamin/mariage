@@ -22,7 +22,7 @@ layer2Text.set_padding("0% 0px 0px 0px");
 layer2Text.set_innerHTML("Se marient le 10 Juin 2023 !");
 layer2Text.set_fontFamily("Supermercado One");
 layer2Text.set_fontSize("500%");
-//layer2Text.set_color("#FFFFFF");
+layer2Text.set_color("#FFFFFF");
 layer2Text.set_fontWeight("bold");
 layer2Text.set_textAlign("center");
 layer2Text.set_parent(layer2);

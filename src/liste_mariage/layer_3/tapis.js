@@ -38,6 +38,7 @@ tapisText.set_fontSize("250%");
 //tapisText.set_color("#FFFFFF");
 tapisText.set_fontWeight("bold");
 tapisText.set_textAlign("center");
+tapisText.set_color("#FFFFFF");
 tapisText.set_parent(tapis);
 
 tapisstyle = getComputedStyle(tapisImg.element());

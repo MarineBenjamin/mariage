@@ -14,4 +14,5 @@ layer4Benjamin.set_fontSize("75%");
 //layer4Benjamin.set_color("#FFFFFF");
 layer4Benjamin.set_fontWeight("bold");
 layer4Benjamin.set_textAlign("center");
+layer4Benjamin.set_color("#FFFFFF");
 layer4Benjamin.set_parent(layer5);

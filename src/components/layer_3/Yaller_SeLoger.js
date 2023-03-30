@@ -1,7 +1,7 @@
 let layer3YallerSeLogerContainer = new Element(DIV);
 layer3YallerSeLogerContainer.set_id("layer3YallerSeLogerContainer");
 //layer3YallerSeLogerContainer.set_backgroundColor("#A1A1A1");
-layer3YallerSeLogerContainer.set_borderLeft("solid 2px");
+layer3YallerSeLogerContainer.set_borderLeft("solid 2px white");
 layer3YallerSeLogerContainer.set_width("33.333%");
 layer3YallerSeLogerContainer.set_height("100%");
 layer3YallerSeLogerContainer.set_position("absolute");
@@ -39,6 +39,7 @@ Layer3YallerSeLogerTextTitle.set_top("5%");
 //Layer3YallerSeLogerTextTitle.set_left("20%");
 Layer3YallerSeLogerTextTitle.set_margin("0px 0px 0px 0px");
 Layer3YallerSeLogerTextTitle.set_padding("0px 0px 0px 0px");
+Layer3YallerSeLogerTextTitle.set_color("#FFFFFF");
 Layer3YallerSeLogerTextTitle.set_parent(Layer3YallerSeLogerText);
 
 let Layer3YallerSeLogerTextCore = new Element(DIV);
@@ -60,4 +61,5 @@ Layer3YallerSeLogerTextCore.set_top("25%");
 Layer3YallerSeLogerTextCore.set_left("5%");
 Layer3YallerSeLogerTextCore.set_margin("0px 0px 0px 0px");
 Layer3YallerSeLogerTextCore.set_padding("0px 0px 0px 0px");
+Layer3YallerSeLogerTextCore.set_color("#FFFFFF");
 Layer3YallerSeLogerTextCore.set_parent(layer3YallerSeLogerContainer);

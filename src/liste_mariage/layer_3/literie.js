@@ -38,6 +38,7 @@ literieText.set_fontSize("250%");
 //literieText.set_color("#FFFFFF");
 literieText.set_fontWeight("bold");
 literieText.set_textAlign("center");
+literieText.set_color("#FFFFFF");
 literieText.set_parent(literie);
 
 literiestyle = getComputedStyle(literieImg.element());

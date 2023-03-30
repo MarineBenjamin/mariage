@@ -38,6 +38,7 @@ nappeText.set_fontSize("250%");
 //nappeText.set_color("#FFFFFF");
 nappeText.set_fontWeight("bold");
 nappeText.set_textAlign("center");
+nappeText.set_color("#FFFFFF");
 nappeText.set_parent(nappe);
 
 nappestyle = getComputedStyle(nappeImg.element());

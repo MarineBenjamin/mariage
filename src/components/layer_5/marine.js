@@ -14,4 +14,5 @@ layer4Marine.set_fontSize("75%");
 //layer4Marine.set_color("#FFFFFF");
 layer4Marine.set_fontWeight("bold");
 layer4Marine.set_textAlign("center");
+layer4Marine.set_color("#FFFFFF");
 layer4Marine.set_parent(layer5);

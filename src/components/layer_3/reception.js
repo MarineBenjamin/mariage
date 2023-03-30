@@ -27,6 +27,7 @@ layer3ReceptionTextTitle.set_top("5%");
 //layer3ReceptionTextTitle.set_left("17.5%");
 layer3ReceptionTextTitle.set_margin("0px 0px 0px 0px");
 layer3ReceptionTextTitle.set_padding("0px 0px 0px 0px");
+layer3ReceptionTextTitle.set_color("#FFFFFF");
 layer3ReceptionTextTitle.set_parent(layer3ReceptionText);
 
 let layer3ReceptionTextCore = new Element(DIV);
@@ -49,4 +50,5 @@ layer3ReceptionTextCore.set_top("20%");
 // layer3ReceptionTextCore.set_left("5%");
 layer3ReceptionTextCore.set_margin("0px 0px 0px 0px");
 layer3ReceptionTextCore.set_padding("0px 0px 0px 0px");
+layer3ReceptionTextCore.set_color("#FFFFFF");
 layer3ReceptionTextCore.set_parent(layer3ReceptionText);

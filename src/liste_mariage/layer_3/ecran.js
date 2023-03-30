@@ -38,6 +38,7 @@ ecranText.set_fontSize("250%");
 //ecranText.set_color("#FFFFFF");
 ecranText.set_fontWeight("bold");
 ecranText.set_textAlign("center");
+ecranText.set_color("#FFFFFF");
 ecranText.set_parent(ecran);
 
 ecranstyle = getComputedStyle(ecranImg.element());

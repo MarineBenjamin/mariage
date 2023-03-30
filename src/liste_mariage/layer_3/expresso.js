@@ -38,6 +38,7 @@ expressoText.set_fontSize("250%");
 //expressoText.set_color("#FFFFFF");
 expressoText.set_fontWeight("bold");
 expressoText.set_textAlign("center");
+expressoText.set_color("#FFFFFF");
 expressoText.set_parent(expresso);
 
 expressostyle = getComputedStyle(expressoImg.element());

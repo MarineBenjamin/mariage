@@ -23,6 +23,7 @@ layer2Text.set_fontSize("350%");
 //layer2Text.set_color("#FFFFFF");
 layer2Text.set_fontWeight("bold");
 layer2Text.set_textAlign("center");
+layer2Text.set_color("#FFFFFF");
 layer2Text.set_parent(layer2);
 
 let layer2subText = new Element(DIV);
@@ -38,4 +39,5 @@ layer2subText.set_fontSize("250%");
 //layer2subText.set_color("#FFFFFF");
 layer2subText.set_fontWeight("bold");
 layer2subText.set_textAlign("center");
+layer2subText.set_color("#FFFFFF");
 layer2subText.set_parent(layer2);

@@ -38,6 +38,7 @@ noceText.set_fontSize("250%");
 //noceText.set_color("#FFFFFF");
 noceText.set_fontWeight("bold");
 noceText.set_textAlign("center");
+noceText.set_color("#FFFFFF");
 noceText.set_parent(noce);
 
 nocestyle = getComputedStyle(noceImg.element());

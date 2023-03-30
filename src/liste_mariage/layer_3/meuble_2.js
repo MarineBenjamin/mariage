@@ -38,6 +38,7 @@ meuble2Text.set_fontSize("250%");
 //meuble2Text.set_color("#FFFFFF");
 meuble2Text.set_fontWeight("bold");
 meuble2Text.set_textAlign("center");
+meuble2Text.set_color("#FFFFFF");
 meuble2Text.set_parent(meuble2);
 
 meuble2style = getComputedStyle(meuble2Img.element());

@@ -38,6 +38,7 @@ mouchoirsText.set_fontSize("250%");
 //mouchoirsText.set_color("#FFFFFF");
 mouchoirsText.set_fontWeight("bold");
 mouchoirsText.set_textAlign("center");
+mouchoirsText.set_color("#FFFFFF");
 mouchoirsText.set_parent(mouchoirs);
 
 mouchoirsstyle = getComputedStyle(mouchoirsImg.element());
