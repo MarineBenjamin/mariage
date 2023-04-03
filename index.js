@@ -7,12 +7,8 @@ function window_resize_event_handler()
     let x = window.innerWidth;
     let y = window.innerHeight;
 
-	console.log(x)
-	console.log(y)
-
 	if(y > x) // Smartphone
 	{
-		console.log("hey")	;
 		layer1.set_width(x + "px");
 		layer2.set_width(0.9*x + "px");
 		layer3.set_width(x + "px");
@@ -40,7 +36,6 @@ function window_resize_event_handler()
 	}
 	else
 	{
-		console.log("here")	;
 		if(x < 1280) 
 		{ 
 			//layer1Buttons.set_width("1152px");
