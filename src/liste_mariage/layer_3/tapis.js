@@ -5,7 +5,7 @@ tapis.set_id("tapis");
 tapis.set_width("50%");
 // tapis.set_height("100%");
 tapis.set_position("absolute");
-tapis.set_top("0%");
+tapis.set_top(parseInt(faitout.top(),10) + parseInt(faitout.height(),10) + 40 + "px");
 tapis.set_left("50%");
 tapis.set_margin("0px 0px 0px 0px");
 tapis.set_padding("0px 0px 0px 0%");

@@ -13,7 +13,7 @@ ecran.set_parent(layer3);
 
 let ecranImg = new Element(IMG);
 ecranImg.set_id("ecranImg");
-ecranImg.set_src(rpath + "../../assets/ecran.png");
+ecranImg.set_src(rpath + "../../assets/ecranCroix.png");
 ecranImg.set_width("75%");
 // ecranImg.set_height("90%");
 ecranImg.set_position("absolute");

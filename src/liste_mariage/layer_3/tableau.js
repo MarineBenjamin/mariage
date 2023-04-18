@@ -5,7 +5,7 @@ tableau.set_id("tableau");
 tableau.set_width("50%");
 tableau.set_height("100%");
 tableau.set_position("absolute");
-tableau.set_top("0%");
+tableau.set_top(parseInt(bibliotheque.top(),10) + parseInt(bibliotheque.height(),10) + 40 + "px");
 tableau.set_left("0%");
 tableau.set_margin("0px 0px 0px 0px");
 tableau.set_padding("0px 0px 0px 0px");
@@ -13,7 +13,7 @@ tableau.set_parent(layer3);
 
 let tableauImg = new Element(IMG);
 tableauImg.set_id("tableauImg");
-tableauImg.set_src(rpath + "../../assets/tableau.PNG");
+tableauImg.set_src(rpath + "../../assets/tableauCroix.PNG");
 tableauImg.set_width("75%");
 tableauImg.set_position("absolute");
 tableauImg.set_top("0%");

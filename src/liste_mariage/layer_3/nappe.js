@@ -13,7 +13,7 @@ nappe.set_parent(layer3);
 
 let nappeImg = new Element(IMG);
 nappeImg.set_id("nappeImg");
-nappeImg.set_src(rpath + "../../assets/nappe.png");
+nappeImg.set_src(rpath + "../../assets/nappeCroix.png");
 nappeImg.set_width("75%");
 // nappeImg.set_height("90%");
 nappeImg.set_position("absolute");
