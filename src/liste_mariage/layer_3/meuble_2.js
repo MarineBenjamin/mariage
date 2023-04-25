@@ -13,7 +13,7 @@ meuble2.set_parent(layer3);
 
 let meuble2Img = new Element(IMG);
 meuble2Img.set_id("meuble2Img");
-meuble2Img.set_src(rpath + "../../assets/meuble2.PNG");
+meuble2Img.set_src(rpath + "../../assets/meuble2Croix.PNG");
 meuble2Img.set_width("75%");
 // meuble2Img.set_height("90%");
 meuble2Img.set_position("absolute");
