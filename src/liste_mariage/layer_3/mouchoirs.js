@@ -13,7 +13,7 @@ mouchoirs.set_parent(layer3);
 
 let mouchoirsImg = new Element(IMG);
 mouchoirsImg.set_id("mouchoirsImg");
-mouchoirsImg.set_src(rpath + "../../assets/mouchoirsCroix.png");
+mouchoirsImg.set_src(rpath + "../../assets/mouchoirs.png");
 mouchoirsImg.set_width("75%");
 // mouchoirsImg.set_height("90%");
 mouchoirsImg.set_position("absolute");
