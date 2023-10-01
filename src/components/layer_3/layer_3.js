@@ -25,7 +25,7 @@ layer3Text.set_margin("0% 0% 0px 0px");
 layer3Text.set_padding("0% 0px 0px 0px");
 layer3Text.set_innerHTML("<p> Merci &agrave tous et &agrave toutes pour votre participation. Ce fut un grand bonheur de vous avoir parmi nous. <br><br>\
 Les photos du mariage sont disponibles ici:<br>\
-<a style=\"color:white\" href=https://1drv.ms/u/s!Ah3IXYPmz59HjgkkmoBHKgD6nyva?e=abht4r target='_blank'>photos mariage (mise &agrave jour le 29/06/23).</a><br><br>\
+<a style=\"color:white\" href=https://www.swisstransfer.com/d/129c87df-74fb-4e95-a3df-2b9a9ea6a856 target='_blank'>photos mariage (mise &agrave jour le 01/10/23).</a><br><br>\
 Si vous m&ecircme avez des photos que vous souhaitez partager, merci de les envoyer &agrave Thomas &agrave l'adresse suivante: foucrier.t@hotmail.fr. Il pourra ainsi mettre &agrave jour le site pour y inclure vos photos (La date changera &agrave chaque mise &agrave jour pour indiquer les changements). </p>");
 layer3Text.set_fontFamily("Supermercado One");
 layer3Text.set_fontSize("250%");
